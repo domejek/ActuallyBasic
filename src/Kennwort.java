@@ -6,7 +6,7 @@ public class Kennwort {
         System.out.println("Wort: ");
         Scanner sc = new Scanner(System.in);
         Word = sc.nextLine();
-        if (Word == CheckWord){
+        if (Word .equalsIgnoreCase(CheckWord)){
             System.out.println("True");
         }
         else{
