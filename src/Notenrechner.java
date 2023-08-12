@@ -16,7 +16,7 @@ public class Notenrechner {
         sc = new Scanner(System.in);
         erreichteZahl = sc.nextDouble();
         result = maxZahl/erreichteZahl;
-        if (result <29) {
+        if (result >29) {
             System.out.println("6");
         } else if (result <49) {
             System.out.println("5");
