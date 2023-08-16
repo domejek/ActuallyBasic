@@ -15,19 +15,19 @@ public class Notenrechner {
         System.out.println("erreichte Zahl: ");
         sc = new Scanner(System.in);
         erreichteZahl = sc.nextDouble();
-        result = maxZahl/erreichteZahl;
-        if (result >29) {
-            System.out.println("6");
-        } else if (result <49) {
-            System.out.println("5");
-        } else if (result <66) {
-            System.out.println("4");
-        } else if (result <80) {
-            System.out.println("3");
-        } else if (result <91) {
-            System.out.println("2");
-        }else {
+        result = maxZahl/erreichteZahl*100;
+        if (result >=92) {
             System.out.println("1");
+        } else if (result >=81) {
+            System.out.println("2");
+        } else if (result >=67) {
+            System.out.println("3");
+        } else if (result >=50) {
+            System.out.println("4");
+        } else if (result >=30) {
+            System.out.println("5");
+        }else {
+            System.out.println("6");
         }
 
     }
