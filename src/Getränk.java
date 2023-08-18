@@ -5,7 +5,7 @@ public class Getränk {
         System.out.println("Zahl:");
         Scanner sc = new Scanner(System.in);
         Zahl = sc.nextDouble();
-        if (Zahl > 18){
+        if (Zahl >= 18){
             System.out.println("Ein Bier");
         }
         else{
